@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"checkJs": false,
+		"target": "esnext",
+		"baseUrl": ".",
+		"moduleResolution": "node",
+		"jsx": "react",
+		"paths": {
+			"@global": ["src/global/index"],
+			"@screens": ["src/screens/index"],
+			"@components": ["src/components/index"],
+			"@services": ["src/services/index"],
+			// "@constants": ["src/constants/index"],
+			"@images": ["src/assets/images/index"],
+			"@helpers": ["src/helpers/index"],
+			"@typings": ["src/typings/index"],
+			"@hooks": ["src/hooks/index"]
+		}
+	}
+}

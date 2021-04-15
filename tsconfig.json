@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"isolatedModules": false,
+		"jsx": "react-native",
+		"lib": ["es2017", "dom"],
+		"moduleResolution": "node",
+		"noEmit": true,
+		"strict": true,
+		"target": "ES2020",
+		"baseUrl": "./",
+		"paths": {
+			"@global": ["src/global/index"],
+			"@screens": ["src/screens/index"],
+			"@components": ["src/components/index"],
+			"@services": ["src/services/index"],
+			"@constants": ["src/constants/index"],
+			"@images": ["src/assets/images/index"],
+			"@helpers": ["src/helpers/index"],
+			"@typings": ["src/typings/index"],
+			"@hooks": ["src/hooks/index"]
+		},
+		"plugins": [{ 
+				"name": "typescript-plugin-css-modules", 
+				"options": { 
+				"customMatcher": "\\.(c|le|sa|sc)ss$", 
+				"customTemplate": "./rn-ts-css-modules-templater.js"
+			} 
+		}],
+	},
+	"exclude": ["node_modules", "index.js", "android", "ios", "build", ".coverage", "native-assets", "jest"],
+	"resolveJsonModule": true
+  }
+  
