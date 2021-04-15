@@ -11,7 +11,7 @@
 			"@screens": ["src/screens/index"],
 			"@components": ["src/components/index"],
 			"@services": ["src/services/index"],
-			// "@constants": ["src/constants/index"],
+			"@constants": ["src/constants/index"],
 			"@images": ["src/assets/images/index"],
 			"@helpers": ["src/helpers/index"],
 			"@typings": ["src/typings/index"],

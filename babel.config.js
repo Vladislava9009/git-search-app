@@ -7,7 +7,7 @@ module.exports = {
                 extensions: ['.ios.js', '.android.js', '.windows.js', '.native.js', '.js', '.jsx', '.json'],
                 alias: {
                     '@components': ['./src/components'],
-                    // '@constants': ['./src/constants'],
+                    '@constants': ['./src/constants'],
                     '@helpers': ['./src/helpers'],
                     '@hooks': ['./src/hooks'],
                     '@images': ['./src/assets/images'],

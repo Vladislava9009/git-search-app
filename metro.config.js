@@ -1,20 +1,3 @@
-// /**
-//  * Metro configuration for React Native
-//  * https://github.com/facebook/react-native
-//  *
-//  * @format
-//  */
-
-// module.exports = {
-//   transformer: {
-//     getTransformOptions: async () => ({
-//       transform: {
-//         experimentalImportSupport: false,
-//         inlineRequires: true,
-//       },
-//     }),
-//   },
-// };
 const { getDefaultConfig } = require('metro-config')
 
 module.exports = (async() => {
@@ -24,12 +7,6 @@ module.exports = (async() => {
 
     return {
         transformer: {
-            // getTransformOptions: async () => ({
-            // 	transform: {
-            // 		experimentalImportSupport: false,
-            // 		inlineRequires: false,
-            // 	},
-            // }),
             babelTransformerPath: require.resolve('./rn-transformer.config.js'),
         },
         resolver: {

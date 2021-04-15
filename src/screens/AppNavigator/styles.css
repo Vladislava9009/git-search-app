@@ -1,0 +1,26 @@
+.headerStyle {
+    background-color: #000000;
+    box-shadow: 1px 1px #333334;
+    border: 0px solid #333334;
+    border-bottom-width: 1px;
+}
+
+.headerTitleStyle {
+    color: #ffffff;
+    font-family: GothamPro-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.cardStyle {
+    background-color: #000000;
+}
+
+.tabBarStyle {
+    min-height: 36px;
+    border: 0px solid #333334;
+    border-top-width: 1px;
+    justify-content: flex-end;
+    background-color: #000000;
+}
